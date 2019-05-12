@@ -1,5 +1,6 @@
 import { of } from 'rxjs';
 
+// This is just to create mock obsevable to demostrate unsubscribing subscriptions examples
 export const data$ = of({
   subtitle: 'Shiba Inu (Dog Breed)',
   imgUrl: 'https://material.angular.io/assets/img/examples/shiba2.jpg',
